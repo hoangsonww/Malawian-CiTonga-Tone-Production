@@ -1,0 +1,156 @@
+Tonga,Gloss,Tone,C1,C2,maxf0,minf0,meanf0,diff.f0,intensity,duration,C1.class,C2.class
+ku-kolwa,get drunk,H,k,lw,181.5635312,165.294831,170.7063974,18.0765339,74.61104898,64.4913034,voiceless obstruents,sonorant wth glide
+ku-land-a,go astray,H,l,nd,155.0122439,150.9088236,152.216875,-2.7718881,76.10047835,85.77308166,sonorants,prenasalized voiced stops
+ku-mbwt-a,miss,H,mbw,t,176.6108345,171.5489237,174.0735589,11.3557858,69.94585939,40.93935974,prenasalized voiced stop wth glide,voiceless obstruents
+ku-tap-a,take extra cards,H,t,p,164.9349177,157.0795886,159.8807988,15.3445463,77.06452194,82.26924321,voiceless obstruents,voiceless obstruents
+ku-wek-a,elude danger,H,w,k,161.2516288,155.866631,159.1492596,8.2785873,73.5678994,87.32066964,sonorants,voiceless obstruents
+ku-mbat-a,stick on,L,mb,t,178.1476245,169.2170143,173.0038913,13.0676803,78.61089206,56.69023277,prenasalized voiced stops,voiceless obstruents
+ku-muk-a,answr,L,m,k,170.3790383,163.6633516,167.6614606,14.1960856,68.75821285,48.95426828,sonorants,voiceless obstruents
+ku-nang-a,destroy,L,n,ng,164.7102191,152.9019262,157.7916983,6.6922426,71.72551401,72.63184582,sonorants,prenasalized voiced stops
+ku-ndond-a,go in line,L,nd,nd,182.114043,169.9806357,175.688677,13.4464719,71.09254753,75.79892868,prenasalized voiced stops,prenasalized voiced stops
+ku-ngat-a,hook,L,ng,t,187.3007858,161.6871188,171.0862165,15.0198912,78.10835472,67.948514,prenasalized voiced stops,voiceless obstruents
+ku-nol-a,sharpen by grinding,L,n,l,169.9323761,156.5504007,161.8573753,12.0571592,70.3362755,73.94571836,sonorants,sonorants
+ku-pum-a,beat,L,p,m,167.631219,164.8915924,166.1985449,23.5144572,66.8150932,49.09140479,voiceless obstruents,sonorants
+ku-tap-a,take from,L,t,p,181.9490493,174.4964742,178.5384119,33.9860671,77.0866096,76.46226445,voiceless obstruents,voiceless obstruents
+ku-temb-a,curse,L,t,mb,175.2649624,170.4591359,172.7474257,28.4656654,71.02539525,64.47765045,voiceless obstruents,prenasalized voiced stops
+ku-biy-a,cheat,H,b,y,150.5322295,131.4175397,140.3763756,-16.9983602,67.33361658,55.93801393,voiced obstruents,sonorants
+ku-dik-a,cover self,H,d,k,145.0655696,135.3374025,141.6235521,-8.4142842,67.15686889,55.74590552,voiced obstruents,voiceless obstruents
+ku-dum-a,attack,H,d,m,147.1782998,134.2956052,142.9113903,-9.7370374,65.24208684,66.60590544,voiced obstruents,sonorants
+ku-gand-a,mark enemy,H,g,nd,144.1618066,138.3959686,140.6110676,-4.9350764,73.29657869,79.13867453,voiced obstruents,prenasalized voiced stops
+ku-got-a,arrive at goal,H,g,t,150.8555096,139.7386015,145.7691495,0.6355504,70.96408821,67.58126305,voiced obstruents,voiceless obstruents
+ku-hay-a,shout praises,H,h,y,148.7621604,126.2410944,136.1474043,-7.5700959,72.80733705,109.3540083,aspirates,sonorants
+ku-jomb-a,be absent from wrk,H,j,mb,152.1169059,149.0171855,150.8487914,1.7614188,71.80446914,56.48347341,voiced obstruents,prenasalized voiced stops
+ku-khat-a,stick in throat,H,kh,t,143.1257838,134.7750855,137.3880466,-6.3658592,69.94529653,53.30245981,aspirates,voiceless obstruents
+ku-phal-a,wn race,H,ph,l,145.4870822,136.1199278,138.6911798,-7.2571106,72.65493275,60.80160171,aspirates,sonorants
+ku-thel-a,give up,H,th,l,152.9283349,149.1767675,150.2445944,2.5321658,70.68568618,83.64514561,aspirates,sonorants
+ku-vuk-a,be wary,H,v,k,148.5062565,139.9864614,145.7109834,10.2736435,65.82233339,43.65540144,voiced obstruents,voiceless obstruents
+ku-zilwa,be rich,H,z,lw,152.1266157,139.0071013,148.4383006,0.065754,69.67168265,64.64816313,voiced obstruents,sonorant wth glide
+ku-bal-a,bear offspring,L,b,l,137.0544142,128.7622832,132.2948842,2.3715193,75.55261183,64.35814857,voiced obstruents,sonorants
+ku-biy-a,steal for,L,b,y,147.3488511,125.8091629,134.9093067,3.1432972,67.51388057,69.47899206,voiced obstruents,sonorants
+ku-dan-a,call,L,d,n,143.2580901,133.6321396,140.218637,2.02108,74.82857092,72.93358936,voiced obstruents,sonorants
+ku-dik-a,spill,L,d,k,141.653403,130.9373151,137.0819413,3.5517688,66.0885226,56.6638014,voiced obstruents,voiceless obstruents
+ku-gal-a,ride horse,L,g,l,149.4459113,132.058465,142.4209066,-1.9097911,76.44658393,70.70933161,voiced obstruents,sonorants
+ku-gon-a,sleep,L,g,n,151.2938983,137.8765267,147.4251549,9.7226614,72.68952182,69.15556019,voiced obstruents,sonorants
+ku-hal-a,inherit,L,h,l,160.0027307,145.3210141,152.5087199,7.6138993,75.55966769,72.66277329,aspirates,sonorants
+ku-hol-a,receive,L,h,l,165.4377608,147.4572228,157.7937566,23.3222134,71.63209949,67.59289944,aspirates,sonorants
+ku-jam-a,dance,L,j,m,152.4978399,149.9041931,151.4340851,14.6397527,76.59039668,66.43010444,voiced obstruents,sonorants
+ku-khat-a,cut lightly,L,kh,t,159.6724266,146.6234725,150.9961103,11.3412831,72.56774872,63.47234279,aspirates,voiceless obstruents
+ku-nthony-a,leak,L,nth,ny,159.9959953,148.8676328,152.8740495,-3.3904672,68.68249064,66.78875413,prenasalized aspirates,sonorant wth glide
+ku-phut-a,blowon,L,ph,t,157.556723,152.0985565,154.7510641,15.9386752,65.58004902,47.11739623,aspirates,voiceless obstruents
+ku-thel-a,arrive at goal,L,th,l,173.6959319,163.1097274,167.5357031,26.7275753,73.05730132,80.8442334,aspirates,sonorants
+ku-vin-a,dance,L,v,n,149.0220807,137.020219,146.6012625,3.643782,69.21681377,51.60928839,voiced obstruents,sonorants
+ku-vun-a,harvest,L,v,n,152.3248763,135.6338492,145.2397015,-0.8461318,69.39967382,47.57623613,voiced obstruents,sonorants
+ku-zil-a,reject,L,z,l,149.0923391,140.2726007,146.903566,2.8465043,68.35797587,41.07340968,voiced obstruents,sonorants
+ku-cinth-a,be strong,H,c,nth,152.7057648,139.310408,148.2637272,6.686654,67.80298175,57.60162626,voiceless obstruents,aspirates
+ku-fuz-a,be full,L,f,z,218.4800319,186.6397069,212.1308269,77.8862156,70.96309115,69.35850248,voiceless obstruents,voiced obstruents
+ku-koz-a,urinate,L,k,z,212.9347177,185.2512021,207.1727008,65.3978899,74.1484806,90.93653017,voiceless obstruents,voiced obstruents
+ku-likh-a,cut dow tree,L,l,kh,212.9131954,182.561961,203.0495488,41.702403,72.6916733,74.34875299,sonorants,aspirates
+ku-mij-a,scatter,L,m,j,215.5820124,193.9766001,209.097523,50.9379356,71.45375822,71.22981041,sonorants,voiced obstruents
+ku-tinkh-a,hate,L,t,nkh,220.5505049,201.2670921,214.6633351,74.0077797,69.49079708,53.05705655,voiceless obstruents,aspirates
+ku-wej-a,fish,L,w,j,204.4194282,186.3918497,199.5643627,50.8257444,76.96034737,82.35656241,sonorants,voiced obstruents
+ku-wth-a,wrm self,L,w,th,197.8943146,190.7040867,196.1607114,47.6862718,71.39473841,49.46316214,sonorants,aspirates
+ku-banth-a,go slowy,L,b,nth,199.3243059,177.722244,191.7950257,46.6563442,76.26943417,95.07659397,voiced obstruents,aspirates
+ku-cov-a,gamble,L,c,v,199.7974546,183.6998545,195.5396911,57.5820407,73.60752323,84.71096044,voiceless obstruents,voiced obstruents
+ku-guz-a,drag,L,g,z,199.4570804,176.6913491,193.3456234,57.5835465,71.60729035,70.71417753,voiced obstruents,voiced obstruents
+ku-job-a,cut out,L,j,b,177.6592731,163.3728536,175.0550071,45.0669693,71.01956633,60.74257612,voiced obstruents,voiced obstruents
+ku-khuch-a,pull in fishing line,L,kh,ch,231.0481049,215.8814503,226.5811989,83.0551026,73.06207558,28.35317234,aspirates,aspirates
+ku-thaz-a,spread,L,th,z,195.5050039,176.1447037,189.7173488,52.3919699,76.87699193,89.94992714,aspirates,voiced obstruents
+ku-bud-a,do wong,H,b,d,125.8640024,118.4101186,122.4712976,-12.1539954,64.14727841,64.28456463,voiced obstruents,voiced obstruents
+ku-bumph-a,be blunt,H,b,mph,134.5713329,128.9402464,132.8683978,-6.5062309,67.68779211,57.98494797,voiced obstruents,aspirates
+ku-chinth-a,be firm,H,ch,nth,150.1519447,139.2146193,147.0415555,10.7626954,67.21289341,49.29722788,aspirates,aspirates
+ku-dod-a,be deep voiced,H,d,d,126.8320303,121.2293003,124.0454799,-4.2995448,67.26103015,88.29394895,voiced obstruents,voiced obstruents
+ku-god-a,triumph over,H,g,d,123.1910665,119.8586342,121.5205415,-8.9256363,69.08183065,82.9821185,voiced obstruents,voiced obstruents
+ku-gug-a,be old,H,g,g,127.5133686,115.4252719,124.4916129,-14.7158843,63.26467507,71.1547552,voiced obstruents,voiced obstruents
+ku-janth-a,hurry,H,j,nth,144.5217601,129.8465703,138.7432576,1.3968361,73.61865591,93.68672996,voiced obstruents,aspirates
+ku-mal-a,finish,L,m,l,176.4099943,158.028815,167.1509362,14.8083767,76.71508955,97.34562764,sonorants,sonorants
+ku-mang-a,tie,L,m,ng,165.9825695,151.8259659,159.1721332,14.1440467,74.01347685,87.05893839,sonorants,prenasalized voiced stops
+ku-nat-a,be very dirty,L,n,t,164.255012,153.3031341,157.1962136,13.8024454,76.21251462,87.87305333,sonorants,voiceless obstruents
+ku-nen-a,deride,L,n,n,157.8920863,142.4151117,149.3995938,9.7702163,70.52833456,83.02769692,sonorants,sonorants
+ku-ng'ol-a,deny wth grimace,L,ng',l,172.9885721,162.1114322,168.3297478,18.12177,72.87494927,117.4599913,sonorants,sonorants
+ku-nun-a,be fat,L,n,n,174.2082646,160.4021966,166.9207063,18.5734655,68.24926114,72.62894444,sonorants,sonorants
+ku-cep-a,be inadequate,H,c,p,173.5972129,163.8131945,170.9411435,14.0177163,72.28867322,77.50521804,voiceless obstruents,voiceless obstruents
+ku-fyot-a,be narrowat one end,H,fy,t,170.916876,166.2338814,167.4599829,15.0119649,71.50943348,74.21703856,voiceless obstruent wth glide,voiceless obstruents
+ku-lakwa,go astray,H,l,kw,167.4901186,160.3810449,163.8445142,5.5820006,78.96731896,61.13492243,sonorants,voiceless obstruent wth glide
+ku-nam-a,lie,H,n,m,168.2410142,159.494827,162.4614588,7.0072944,74.70940729,82.48485459,sonorants,sonorants
+ku-wl-a,be caught in trap,H,w,l,168.9818765,165.0431592,167.6809018,6.8345202,73.54334422,44.63165531,sonorants,sonorants
+ku-bam-a,craw,L,b,m,135.6336704,126.3206215,131.2315256,-0.5876458,75.01773443,71.2298003,voiced obstruents,sonorants
+ku-bil-a,sink,L,b,l,148.2044945,127.925016,141.9349977,7.1521358,69.01810405,72.87864309,voiced obstruents,sonorants
+ku-cheel-a,set a trap,L,ch,l,175.9393554,167.6196025,172.6683421,25.0578102,73.00082589,50.5068478,aspirates,sonorants
+ku-chiik-a,drive,L,ch,k,158.3298904,151.4202522,156.2336683,16.4942525,67.80495218,40.69878977,aspirates,voiceless obstruents
+ku-dek-a,be quiet,L,d,k,144.2528692,134.5357715,141.3513084,7.4780846,70.63150624,69.09854926,voiced obstruents,voiceless obstruents
+ku-dil-a,pour out,L,d,l,146.4434406,133.4989908,142.2546732,6.5188042,69.27599749,64.25985601,voiced obstruents,sonorants
+ku-gand-a,strike,L,g,nd,157.4997196,141.7421168,148.3129926,12.3468116,73.56317785,77.16277566,voiced obstruents,prenasalized voiced stops
+ku-gul-a,buy,L,g,l,150.9614816,131.7582257,141.7351848,2.0465288,67.23269866,34.43396912,voiced obstruents,sonorants
+ku-hom-a,pierce,L,h,m,147.5800728,125.6370511,141.6852947,6.7454185,70.51187783,77.43333455,aspirates,sonorants
+ku-hum-a,how,L,h,m,149.4174175,130.4248293,143.2514996,3.9547052,67.54197058,60.23045297,aspirates,sonorants
+ku-jal-a,close,L,j,l,150.8468772,134.203316,142.8818979,7.4063371,75.11351492,87.37721787,voiced obstruents,sonorants
+ku-jul-a,open,L,j,l,156.6963852,140.4099975,149.7526469,11.1432702,66.95576888,59.08964752,voiced obstruents,sonorants
+ku-khom-a,reach maturity,L,kh,m,164.072401,155.7523242,161.2368438,14.3119397,72.56436389,50.61804682,aspirates,sonorants
+ku-khumb-a,desire,L,kh,mb,155.8737147,145.9854213,150.3844594,6.7357734,65.32484116,35.0894594,aspirates,prenasalized voiced stops
+ku-phat-a,prune,L,ph,t,153.9028472,143.7750241,147.190127,7.8725541,73.0928815,67.97229108,aspirates,voiceless obstruents
+ku-phimb-a,veil,L,ph,mb,160.7611293,156.4542222,159.116287,16.8008164,68.74725171,47.60181154,aspirates,prenasalized voiced stops
+ku-then-a,castrate,L,th,n,164.3210742,157.3861786,160.3516874,16.4574202,72.24096802,64.49350089,aspirates,sonorants
+ku-thul-a,take marriage gift,L,th,l,167.6092376,155.7828069,162.1930219,20.2394732,69.03331382,42.0247492,aspirates,sonorants
+ku-vund-a,rot,L,v,nd,154.0155016,131.4310629,142.3516334,7.2945941,66.04155518,54.42653702,voiced obstruents,prenasalized voiced stops
+ku-vuwa,row,L,v,w,161.8007157,140.3581612,152.7784173,19.0265118,66.96565083,66.20470906,voiced obstruents,sonorants
+ku-zal-a,be plentiful,L,z,l,148.8587023,131.166945,143.7034214,6.0944297,75.57425607,84.67005493,voiced obstruents,sonorants
+ku-zik-a,be patient,L,z,k,146.2490183,136.0714025,141.8411514,0.5468655,67.02739953,45.56925598,voiced obstruents,voiceless obstruents
+ku-cov-a,gamble,L,c,v,213.6887304,163.6139617,203.904457,52.6826351,75.44284984,100.9434346,voiceless obstruents,voiced obstruents
+ku-kankh-a,push,L,k,nkh,198.5826721,189.1914219,196.0655753,49.8530841,77.27175039,84.65512684,voiceless obstruents,aspirates
+ku-lal-a,sleep,L,l,l,168.2552761,156.4005446,161.7116283,11.5989529,74.59288405,85.04229237,sonorants,sonorants
+ku-wal-a,shine,L,w,l,174.5477028,160.0938662,167.1807088,16.7981204,76.16404701,93.51272523,sonorants,sonorants
+ku-wl-a,taunt,L,w,l,177.6662414,165.9759612,170.4835028,14.2659619,77.20102083,85.93593388,sonorants,sonorants
+ku-yal-a,set table,L,y,l,187.8921152,176.197175,182.0265775,28.2720538,78.3137793,75.97407593,sonorants,sonorants
+ku-bwny-a,push,L,bw,ny,170.8792313,158.0125711,163.7049528,11.0063668,72.66778902,54.2609698,voiced obstruent wth glide,sonorant wth glide
+ku-bwt-a,boil,L,bw,t,165.0101562,151.3919506,157.4335979,10.8026778,74.42700031,62.276096,voiced obstruent wth glide,voiceless obstruents
+ku-bwl-a,dip into soup,L,bw,l,178.1378222,163.4163198,171.6534646,25.7962284,71.36438614,44.76320273,voiced obstruent wth glide,sonorants
+ku-dyak-a,trample,L,dy,k,168.3947895,159.0696692,164.2246272,17.2385877,75.04710642,63.4753444,voiced obstruent wth glide,voiceless obstruents
+ku-dyow-a,put ornament,L,dy,w,178.7789764,164.2478823,173.2928839,17.1995454,72.29395887,57.83952176,voiced obstruent wth glide,sonorants
+ku-gwl-a,wrk,L,gw,l,170.5875114,164.6314636,167.38267,21.6212578,70.44137419,44.61458194,voiced obstruent wth glide,sonorants
+ku-phwny-a,break something into pieces,L,phw,ny,166.2743924,154.8463811,158.7264544,3.3781474,70.63318697,49.9311517,aspirate wth glide,sonorant wth glide
+ku-phwt-a,tread on,L,phw,t,171.7329864,159.212167,162.9216985,21.1552015,71.48910911,50.74386927,aspirate wth glide,voiceless obstruents
+ku-zyang-a,color,L,zy,ng,168.2549727,155.1064251,161.5027097,20.7810333,74.87099103,64.97570604,voiced obstruent wth glide,prenasalized voiced stops
+ku-phwk-a,be cheap,H,phw,k,157.7915185,144.7647991,152.2611946,5.858544,68.2361345,83.79578438,aspirate wth glide,voiceless obstruents
+ku-zyang-a,turn against,H,zy,ng,144.6470636,139.9985298,141.8803457,-2.8210168,73.10202716,65.93790759,voiced obstruent wth glide,prenasalized voiced stops
+ku-yunkhwa,sit uneasily,L,y,nkhw,230.8129147,215.9364369,226.4343715,65.1113031,68.34753659,62.39015116,sonorants,prenasalized aspirate wth glide
+ku-punthwa,fumble,H,p,nthw,160.1410166,151.248155,158.2304893,8.1918443,64.31837266,64.88929831,voiceless obstruents,nthw
+ku-gwd-a,kneel,L,gw,d,207.743265,196.8939084,205.1802843,58.2933917,77.23534833,61.11197176,voiced obstruent wth glide,voiced obstruents
+ku-gwz-a,pierce violently,L,gw,z,202.3876854,182.7334444,199.6365437,52.4884938,77.09826022,68.52521423,voiced obstruent wth glide,voiced obstruents
+ku-chay-a,hit,L,ch,y,162.8356723,144.7948528,150.9953902,11.784789,74.05148907,69.77546693,aspirates,sonorants
+ku-chen-a,look decent,L,ch,n,164.5059043,159.2795804,161.8783069,23.6636748,71.45113591,61.49716973,aspirates,sonorants
+ku-chet-a,gossip about,L,ch,t,166.5229467,157.267163,161.3224105,27.7478448,69.74765142,58.91659088,aspirates,voiceless obstruents
+ku-ghalam-a,wlk wth head high,L,gh,l,182.3129361,168.7507346,176.5821225,35.141488,80.59706932,80.67632189,sonorants,sonorants
+ku-ghanaghan-a,think,L,gh,n,170.2348397,157.0686509,164.0985647,18.6789362,77.93517241,84.74826236,sonorants,sonorants
+ku-nchakat-iy-a,receive something courteously,L,nch,k,157.0562888,147.9616188,152.490899,0.7973738,74.04502838,70.91303543,prenasalized aspirates,voiceless obstruents
+ku-nkhong'ol-is-a,cause to pick up,L,nkh,ng',175.5858583,154.9649535,166.2523275,15.912452,69.2414222,61.30720474,prenasalized aspirates,sonorants
+ku-thamik-a,praise,L,th,m,169.712864,157.2581034,162.396747,17.1665888,73.65156158,55.58100116,aspirates,sonorants
+ku-thesuwa,cast dow violently,L,th,w,171.4394503,163.4950956,168.2222752,34.2160623,70.11232734,74.41217402,aspirates,sonorants
+ku-cuc-a,drip continuously,L,c,c,148.1347428,142.5474864,146.0989405,14.83660214,60.19737854,50.44057268,voiceless obstruents,voiceless obstruents
+ku-fuw-a,skin,L,f,w,181.0084028,174.1497308,177.6401472,37.99524673,66.89472814,74.70861588,voiceless obstruents,sonorants
+ku-las-a,stab,L,l,s,168.9319689,153.0491712,161.1758026,15.84610388,77.03810127,67.94906115,sonorants,voiceless obstruents
+ku-liy-a,cry out,L,l,y,173.1747406,155.3857916,162.5710594,12.53611047,71.02210583,75.62034627,sonorants,sonorants
+ku-negh-a,drawwter,L,n,gh,181.6220007,166.8286054,174.0648595,29.17643579,74.97786793,91.80483018,sonorants,sonorants
+ku-nowa,be swet,L,n,w,187.5473271,170.0497356,179.8917567,30.22433545,72.30350142,83.03422344,sonorants,sonorants
+ku-penj-a,look for,L,p,nj,170.3010386,166.6924323,167.8822124,27.33559521,71.14345479,64.61132615,voiceless obstruents,prenasalized voiced stops
+ku-sef-a,sift,L,s,f,173.2814466,160.5161424,168.7268636,37.60360055,71.75735444,62.30073496,voiceless obstruents,voiceless obstruents
+ku-jwt-ik-a,put something among things quickly,L,jw,t,174.8465561,163.3857237,171.0684483,21.56941261,74.21089454,49.6473911,voiced obstruent wth glide,voiceless obstruents
+ku-thwnuk-a,open ones eyes,L,thw,n,172.0254484,159.159713,162.7257791,8.867143439,72.03940008,41.87158398,aspirate wth glide,sonorants
+ku-vwl-a,to war clothes,L,vw,l,171.0481501,154.6639453,162.5642003,30.10375483,76.7329702,44.85294897,voiced obstruent wth glide,sonorants
+ku-zwzwt-a,swng to and fro,L,zw,zw,206.955873,176.931952,199.034262,45.854154,73.2181948,44.5104408,voiced obstruent wth glide,voiced obstruent wth glide
+ku-fuvy-a,deceive,L,f,vy,220.7992022,187.2687531,212.0546101,67.97335503,69.05843879,66.62227661,voiceless obstruents,voiced obstruent wth glide
+ku-sit-a,iron clothes,L,s,t,201.9577584,198.1058175,201.0083426,45.35427959,61.69018043,31.97728324,voiceless obstruents,voiceless obstruents
+ku-wl-a,throwfood in mouth,L,w,l,197.4019584,195.0762064,196.3772804,34.04354772,74.28198187,52.5004964,sonorants,sonorants
+ku-vimb-a,cover,L,v,mb,176.1832463,159.0742306,170.6088106,25.10714476,69.04793654,50.24833547,voiced obstruents,prenasalized voiced stops
+ku-sit-a,give awy money in gambling,H,s,t,167.4651161,160.8785324,165.8170912,7.725671796,62.9593965,27.83188286,voiceless obstruents,voiceless obstruents
+ku-hol-a,be scored,H,h,l,154.2849097,130.3934855,145.78003,-4.012916648,69.13402208,89.89450467,aspirates,sonorants
+ku-jam-a,jam,H,j,m,151.2666127,149.1326564,150.3469946,-1.369742756,74.31772898,58.70448764,voiced obstruents,sonorants
+ku-phat-a,get stuck,H,ph,t,157.79291,150.1564682,152.4191082,3.280201723,71.56172813,37.49586454,aspirates,voiceless obstruents
+ku-then-a,give too little,H,th,n,156.8869406,145.5087341,150.8359749,0.478866445,69.20085843,60.22884084,aspirates,sonorants
+ku-vimb-a,be constipated,H,v,mb,147.4383135,138.8121095,145.4388018,-3.136966667,67.69271839,54.5871282,voiced obstruents,prenasalized voiced stops
+ku-fws-a,be calm/quiet,H,fw,s,144.0123628,138.5272889,141.2496705,14.14904339,69.08849031,51.48104513,voiceless obstruent wth glide,voiceless obstruents
+ku-gh-a,be there,H,gh,none,160.4293402,155.8327932,159.6140768,6.684056334,74.9316954,96.03640628,sonorants,none
+ku-m-a,stand,H,m,none,150.2822868,145.9196759,147.7595839,1.00513331,69.16586788,84.96768791,sonorants,none
+ku-mwa,drink,H,mw,none,152.4780911,151.4401069,151.8905839,1.740712187,71.61520812,56.74242431,sonorants,none
+ku-ng'-a,defecate,H,ng',none,159.6493793,155.8730807,156.9309999,-3.298869531,72.0231034,82.15577716,sonorants,none
+ku-p-ik-a,be given,H,p,k,131.4821458,129.0941685,130.5450023,5.710521208,61.03274864,41.17509223,voiceless obstruents,voiceless obstruents
+ku-samwa,be choked,H,s,mw,163.796389,142.9926461,151.3727769,21.55189215,71.91689366,77.97257362,voiceless obstruents,sonorant wth glide
