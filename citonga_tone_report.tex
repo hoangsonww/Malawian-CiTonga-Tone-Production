@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\title{CiTonga Tone Production Analysis}
+\author{David Nguyen \and Rosser Martin}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This report examines how consonant context influences the realization of
+High (H) and Low (L) tone F\textsubscript{0} values in Malawian CiTonga verb stems.
+Two experiments compare pitch following sonorant vs. voiced‐obstruent onsets
+(Experiment A) and H vs. L tones after individual voiced obstruents (Experiment B).
+\end{abstract}
+
+\section{Data \& Methods}
+We analyze \texttt{citonga.csv}, focusing on:
+\begin{itemize}
+  \item \textbf{Tone}: H or L
+  \item \textbf{C1.class}: sonorants vs.\ voiced obstruents
+  \item \textbf{C1}: individual consonant (b, d, j, g, v, z)
+  \item \textbf{meanf0}: mean pitch (Hz)
+\end{itemize}
+
+Plots are generated via \texttt{ggplot2} in \texttt{citonga\_tone\_analysis.R}.
+
+\section{Experiment A: H Tone by C1 Class}
+
+\subsection{Hypotheses}
+\begin{description}
+  \item[H$_0$:] No difference in mean F\textsubscript{0} of H tones after sonorants vs.\ voiced obstruents.
+  \item[H$_1$:] A significant difference exists.
+\end{description}
+
+\subsection{Results}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7\textwidth]{experimentA_boxplot.png}
+  \caption{Mean F\textsubscript{0} of H Tone by C1 Class}
+\end{figure}
+
+\noindent
+A two‐sample t‐test yields:\\
+\texttt{t = 5.1426, df = 23, p = 3.28e-05}\\
+\emph{p} < 0.05, so we reject H$_0$.
+
+\section{Experiment B: Tone by Individual Voiced Obstruent}
+
+\subsection{Visualization}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7\textwidth]{experimentB_boxplot.png}
+  \caption{Mean F\textsubscript{0} by Voiced Obstruent and Tone}
+\end{figure}
+
+\subsection{Statistical Test}
+
+A t‐test comparing H vs.\ L after voiced obstruents yields:\\
+\texttt{t = -5.4622, df = 153, p = 1.86e-07}\\
+\emph{p} < 0.05, reject H$_0$.
+
+\section{Discussion}
+\begin{itemize}
+  \item After sonorants, H tones are higher than after voiced obstruents.
+  \item Unexpectedly, L tones after voiced obstruents surface at higher pitch than H tones.
+  \item Future work: investigate aerodynamic or prosodic mechanisms driving L‐tone elevation.
+\end{itemize}
+
+\section*{References}
+\begin{itemize}
+  \item R Core Team (2023). R: A Language and Environment for Statistical Computing.
+  \item Wickham H. (2016). \emph{ggplot2: Elegant Graphics for Data Analysis}.
+\end{itemize}
+
+\end{document}
+
