@@ -109,9 +109,15 @@ ggplot(voiced_obs, aes(C1, meanf0, fill=Tone)) +
   theme_minimal()
 ```
 
-![](figures/experimentB_boxplot.png)
-
 **Observation:** Contrary to expectation, L-tone words often show higher mean F₀ than H-tone words after voiced obstruents.
+
+<p align="center">
+   <img src="img/citonga-1.png" width="100%" />
+</p>
+
+<p align="center">
+   <img src="img/citonga-2.png" width="100%" />
+</p>
 
 ### Statistical Test
 
