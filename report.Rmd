@@ -1,0 +1,150 @@
+---
+title: "CiTonga Tone Production Analysis"
+author:
+  - David Nguyen
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    code_folding: hide
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo       = TRUE,
+  warning    = FALSE,
+  message    = FALSE,
+  fig.width  = 7,
+  fig.height = 5
+)
+# Load required package
+if (!requireNamespace("ggplot2", quietly=TRUE)) install.packages("ggplot2")
+library(ggplot2)
+````
+
+# 1. Introduction
+
+This analysis explores how the phonetic context of the first consonant (C1) affects the realization of High (H) and Low (L) tone F₀ values in Malawian CiTonga verb stems. We conduct two experiments:
+
+* **Experiment A:** Compare mean F₀ of H-tone vowels following sonorant vs. voiced-obstruent onsets.
+* **Experiment B:** Compare mean F₀ of H vs. L tones following each individual voiced-obstruent onset.
+
+# 2. Data Loading
+
+```{r load-data}
+# Read the dataset
+df <- read.csv("citonga.csv", stringsAsFactors = TRUE)
+cat("Total tokens:", nrow(df), "\n")
+str(df)
+```
+
+Columns of interest:
+
+* `Tone` (“H” or “L”)
+* `C1.class` (“sonorants” or “voiced obstruents”)
+* `C1` (individual consonant: b, d, j, g, v, z, etc.)
+* `meanf0` (mean pitch in Hz)
+
+# 3. Experiment A: H Tone by C1 Class
+
+## 3.1. Hypotheses
+
+* **H₀:** Mean F₀ of H tones does not differ between sonorant and voiced-obstruent onsets.
+* **H₁:** Mean F₀ of H tones differs between these onset classes.
+
+## 3.2. Filter Data & Visualize
+
+```{r expA-visualize}
+df_H <- subset(df, Tone == "H" & C1.class %in% c("sonorants", "voiced obstruents"))
+pA <- ggplot(df_H, aes(x = C1.class, y = meanf0)) +
+  geom_boxplot(fill = "steelblue", alpha = 0.7) +
+  labs(
+    title = "Mean F₀ of H Tone by C1 Class",
+    x     = "C1 Class",
+    y     = "Mean F₀ (Hz)"
+  ) +
+  theme_minimal()
+print(pA)
+```
+
+> Observation: The sonorant context appears to yield higher mean F₀ than the voiced-obstruent context.
+
+## 3.3. Statistical Test
+
+```{r expA-ttest}
+sonorants_H  <- subset(df, Tone == "H" & C1.class == "sonorants")$meanf0
+voicedObs_H  <- subset(df, Tone == "H" & C1.class == "voiced obstruents")$meanf0
+testA <- t.test(sonorants_H, voicedObs_H, var.equal = TRUE)
+testA
+```
+
+* **t** = `r round(testA$statistic, 4)`
+* **df** = `r testA$parameter`
+* **p-value** = `r signif(testA$p.value, 3)`
+
+Since *p* < 0.05, we **reject** H₀ and conclude that onset class significantly affects H-tone F₀.
+
+## 3.4. Conclusions from Experiment A
+
+1. H-tone verbs preceded by sonorants have significantly higher pitch than those preceded by voiced obstruents.
+2. Consonant class modulates tonal pitch realization in CiTonga.
+
+# 4. Experiment B: Tone by Individual Voiced Obstruent
+
+## 4.1. Filter Data & Visualize
+
+```{r expB-visualize}
+voiced_set <- c("b","d","j","g","v","z")
+df_voiced <- subset(df, C1 %in% voiced_set)
+pB <- ggplot(df_voiced, aes(x = C1, y = meanf0, fill = Tone)) +
+  geom_boxplot(alpha = 0.7) +
+  labs(
+    title = "Mean F₀ by Voiced Obstruent and Tone",
+    x     = "Voiced Obstruent (C1)",
+    y     = "Mean F₀ (Hz)"
+  ) +
+  theme_minimal()
+print(pB)
+```
+
+> Observation: L tones often show higher mean F₀ than H tones after voiced obstruent onsets.
+
+## 4.2. Statistical Test
+
+```{r expB-ttest}
+H_vo <- subset(df, Tone == "H" & C1 %in% voiced_set)$meanf0
+L_vo <- subset(df, Tone == "L" & C1 %in% voiced_set)$meanf0
+testB <- t.test(H_vo, L_vo, var.equal = TRUE)
+testB
+```
+
+* **t** = `r round(testB$statistic, 4)`
+* **df** = `r testB$parameter`
+* **p-value** = `r signif(testB$p.value, 3)`
+
+Since *p* < 0.05, we **reject** H₀ and conclude that tone category significantly affects F₀ in voiced-obstruent contexts.
+
+## 4.3. Conclusions from Experiment B
+
+1. After voiced obstruents, L-tone stems exhibit significantly higher pitch than H-tone stems.
+2. This counterintuitive pattern suggests context-specific tonal enhancement or suppression mechanisms.
+
+# 5. General Discussion & Follow-up
+
+* Consonant context has a robust effect on tonal pitch realization in CiTonga.
+* The reversal in Experiment B invites further phonetic and phonological investigation (e.g., aerodynamic influences, downstep patterns).
+* **Follow-up question:** What articulatory or prosodic processes underlie the unexpected L-tone elevation?
+
+# 6. References
+
+* CiTonga field data (unpublished).
+* Wickham H. (2016). *ggplot2: Elegant Graphics for Data Analysis*.
+* R Core Team (2023). *R: A language and environment for statistical computing*.
+
+# 7. Session Info
+
+```{r session-info}
+sessionInfo()
+```
